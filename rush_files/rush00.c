@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rush04.c                                           :+:      :+:    :+:   */
+/*   rush00.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nourra.agoudjil <nourra.agoudjil@learner.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/26 19:31:31 by nourra.agoudj     #+#    #+#             */
-/*   Updated: 2025/07/26 20:20:27 by nourra.agoudj    ###   ########.fr       */
+/*   Created: 2025/07/26 19:44:18 by nourra.agoudj     #+#    #+#             */
+/*   Updated: 2025/07/26 20:18:27 by nourra.agoudj    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,18 @@ void	rush(int x, int y)
 	i = 0;
 	if (x > 0 && y > 0)
 	{
-		ft_print_line('A', 'B', 'C', x);
+		ft_print_line('o', '-', 'o', x);
 	}
 	if (y > 2)
 	{
 		while (i < (y - 2))
 		{
-			ft_print_line('B', ' ', 'B', x);
+			ft_print_line('|', ' ', '|', x);
 			i++;
 		}
 	}
 	if (y > 1)
 	{
-		ft_print_line('C', 'B', 'A', x);
+		ft_print_line('o', '-', 'o', x);
 	}
 }

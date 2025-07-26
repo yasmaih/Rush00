@@ -5,17 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nourra.agoudjil <nourra.agoudjil@learner.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/26 17:17:36 by nourra.agoudj     #+#    #+#             */
-/*   Updated: 2025/07/26 17:28:46 by nourra.agoudj    ###   ########.fr       */
+/*   Created: 2025/07/26 19:30:22 by nourra.agoudj     #+#    #+#             */
+/*   Updated: 2025/07/26 20:19:50 by nourra.agoudj    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 
 void	ft_putchar(char c);
-
-void	ft_print_line(char start, char fill, char end, int lc);
 
 void	ft_print_line(char start, char fill, char end, int lc)
 {

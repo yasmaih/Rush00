@@ -5,17 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nourra.agoudjil <nourra.agoudjil@learner.  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/26 17:17:36 by nourra.agoudj     #+#    #+#             */
-/*   Updated: 2025/07/26 17:26:56 by nourra.agoudj    ###   ########.fr       */
+/*   Created: 2025/07/26 19:28:33 by nourra.agoudj     #+#    #+#             */
+/*   Updated: 2025/07/26 20:19:27 by nourra.agoudj    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 
 void	ft_putchar(char c);
-
-void	ft_print_line(char start, char fill, char end, int lc);
 
 void	ft_print_line(char start, char fill, char end, int lc)
 {
@@ -44,7 +41,6 @@ void	rush(int x, int y)
 	{
 		ft_print_line('A', 'B', 'A', x);
 	}
-
 	if (y > 2)
 	{
 		while (i < (y - 2))
