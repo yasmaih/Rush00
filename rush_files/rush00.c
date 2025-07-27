@@ -37,11 +37,11 @@ void	rush(int x, int y)
 	int	i;
 
 	i = 0;
-	if(((x < 0)||y < 0)||((x > 2147483647)||(y > 2147483647)))
+	if (x <= 0 || y <= 0)
 	{
-		write(1, "Merci de recommencer uniquement avec des nombres entiers positifs, compris entre 0 et 2 147 483 648", 99);
+		write(1, "Merci de recommencer avec des nombres entiers positifs", 54);
 		write(1, "\n", 1);
-	}	
+	}
 	if (x > 0 && y > 0)
 	{
 		ft_print_line('o', '-', 'o', x);

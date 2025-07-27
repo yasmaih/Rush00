@@ -37,6 +37,11 @@ void	rush(int x, int y)
 	int	i;
 
 	i = 0;
+	if (x <= 0 || y <= 0)
+	{
+		write(1, "Merci de recommencer avec des nombres entiers positifs", 54);
+		write(1, "\n", 1);
+	}
 	if (x > 0 && y > 0)
 	{
 		ft_print_line('A', 'B', 'C', x);
